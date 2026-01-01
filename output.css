@@ -1,0 +1,525 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Noto Serif", serif;
+}
+
+.container {
+  width: 1620px;
+  border: 1px solid red;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding-top: 40px;
+  background-color: #FBEDDA;
+  position: relative;
+  overflow: hidden;
+}
+header nav > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+header nav {
+  margin-bottom: 206px;
+  margin-top: 0px;
+}
+header .logo {
+  margin-right: 648px;
+}
+header .menu {
+  list-style: none;
+  padding: 0px;
+}
+header .menu li {
+  display: inline-block;
+  margin-right: 81px;
+}
+header .menu li a {
+  font-family: "Noto Serif", serif;
+  color: #021112;
+  font-weight: 400px;
+  font-size: 18px;
+}
+header .menu li:last-child {
+  margin-right: 83px;
+}
+header .signIn {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  width: 127px;
+  height: 50px;
+  background-color: #13A6BA;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 50px;
+}
+header .hero {
+  font-weight: 800;
+  font-size: 80px;
+  width: 988px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 31px;
+}
+header .about {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  color: #677071;
+  width: 726px;
+  margin: 0 auto;
+  margin-bottom: 132px;
+}
+header .wrapper {
+  overflow: hidden;
+  width: 1274px;
+  height: 273px;
+  background-color: white;
+  margin: 0px auto;
+  margin-bottom: 1046px;
+  border-radius: 20px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  position: relative;
+  z-index: 2;
+}
+header .wrapper .bg {
+  width: 1274px;
+  height: 109px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 1px solid #E0E2E3;
+}
+header .wrapper input[type=radio] {
+  position: absolute;
+  top: 0;
+  appearance: none;
+  width: 75px;
+  height: 111px;
+  margin: 0px;
+  text-align: center;
+  line-height: 113px;
+  font-size: 26px;
+  font-weight: 300;
+  color: #CCCFD0;
+}
+header .wrapper #rent1 {
+  left: 54px;
+}
+header .wrapper #buy1 {
+  left: 201px;
+}
+header .wrapper #sell1 {
+  left: 339px;
+}
+header .wrapper #rent1::after {
+  content: "Rent";
+  font-family: "Noto Serif", serif;
+}
+header .wrapper #buy1::after {
+  content: "Buy";
+  font-family: "Noto Serif", serif;
+}
+header .wrapper #sell1::after {
+  content: "Sell";
+  font-family: "Noto Serif", serif;
+}
+header .wrapper #rent1:checked {
+  color: #021112;
+  border-bottom: 3px solid #021112;
+  font-weight: 600;
+}
+header .wrapper #buy1:checked {
+  color: #021112;
+  border-bottom: 3px solid #021112;
+  font-weight: 600;
+}
+header .wrapper #sell1:checked {
+  color: #021112;
+  border-bottom: 3px solid #021112;
+  font-weight: 600;
+}
+header .wrapper #rent1:checked ~ .slides {
+  left: 0px;
+}
+header .wrapper #buy1:checked ~ .slides {
+  left: -1281px;
+}
+header .wrapper #sell1:checked ~ .slides {
+  left: -2562px;
+}
+header .wrapper .slides {
+  width: 3900px;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+header .wrapper .slide {
+  display: inline-block;
+  width: 1274px;
+}
+header .wrapper .slide > * {
+  display: inline-block;
+  vertical-align: top;
+}
+header .wrapper .slide > * > * {
+  display: inline-block;
+}
+header .wrapper .slide i {
+  font-size: 18px;
+  color: #13A6BA;
+  width: 35px;
+  text-align: center;
+}
+header .wrapper .slide .loc {
+  width: 361px;
+  height: 161px;
+}
+header .wrapper .slide .prop {
+  width: 292px;
+  height: 161px;
+}
+header .wrapper .slide .price {
+  width: 360px;
+  height: 161px;
+}
+header .wrapper .slide .info_loc, header .wrapper .slide .info_prop, header .wrapper .slide .info_price {
+  margin-left: 47px;
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #CCCFD0;
+}
+header .wrapper .slide .info_loc_p, header .wrapper .slide .info_prop_c, header .wrapper .slide .info_price_c {
+  margin: 0px;
+  margin-top: 6px;
+  margin-left: 82px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #021112;
+}
+header .wrapper .slide .vert_line {
+  background-color: #CFCCCC;
+  width: 1px;
+  height: 50px;
+  margin: 0px;
+  margin-top: 43px;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+header .wrapper .slide .search {
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+  width: 206px;
+  height: 83px;
+  background-color: #13A6BA;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 83px;
+  margin-top: 27px;
+}
+header .header_home {
+  height: 1319px;
+  transform: translate(-50%, 10%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+}
+
+.properties .container {
+  position: relative;
+  border: 1px solid orangered;
+  margin-top: 290px;
+  overflow: hidden;
+}
+.properties .properties__header {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 58px;
+  color: #021112;
+}
+.properties .properties__label {
+  display: inline-block;
+  margin: 0px;
+  margin-top: 21px;
+  margin-bottom: 99px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #677071;
+}
+.properties .slides {
+  position: relative;
+  left: 0;
+  width: 4880px;
+  transition: 1.5s;
+}
+.properties .properties__rent-pointer,
+.properties .properties__buy-pointer,
+.properties .properties__sell-pointer {
+  position: absolute;
+  top: 87px;
+  transform: translate(-50%, -50%);
+  height: 13.48px;
+  width: 13.48px;
+  border-radius: 50%;
+  background-color: none;
+}
+.properties .properties__rent-pointer {
+  left: 1265px;
+}
+.properties .properties__buy-pointer {
+  left: 1410px;
+}
+.properties .properties__sell-pointer {
+  left: 1540px;
+}
+.properties .properties__rent,
+.properties .properties__buy,
+.properties .properties__sell {
+  appearance: none;
+  position: absolute;
+  top: 87px;
+  z-index: 2;
+  cursor: pointer;
+  margin: 0px;
+}
+.properties .properties__rent {
+  left: 1265px;
+}
+.properties .properties__buy {
+  left: 1410px;
+}
+.properties .properties__sell {
+  left: 1540px;
+}
+.properties .properties__rent:checked ~ .slides {
+  left: 0;
+}
+.properties .properties__buy:checked ~ .slides {
+  left: -1616px;
+}
+.properties .properties__sell:checked ~ .slides {
+  left: -3232px;
+}
+.properties .properties__rent::before,
+.properties .properties__buy::before,
+.properties .properties__sell::before {
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 25.48px;
+  height: 25.48px;
+  border: 1.3px solid #CCCFD0;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.properties .properties__rent::after,
+.properties .properties__buy::after,
+.properties .properties__sell::after {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 27.74px;
+  transform: translateY(-50%);
+  content: attr(data-info);
+  font-family: "Noto Serif", serif;
+  color: #CCCFD0;
+  font-weight: 600;
+  font-size: 26px;
+}
+.properties .properties__rent:checked::before,
+.properties .properties__buy:checked::before,
+.properties .properties__sell:checked::before {
+  border: 1.3px solid #772D8B;
+}
+.properties .properties__rent:checked::after,
+.properties .properties__buy:checked::after,
+.properties .properties__sell:checked::after {
+  color: #772D8B;
+}
+.properties .properties__rent:checked ~ .properties__rent-pointer,
+.properties .properties__buy:checked ~ .properties__buy-pointer,
+.properties .properties__sell:checked ~ .properties__sell-pointer {
+  background-color: #772D8B;
+}
+.properties .block {
+  display: inline-block;
+}
+.properties .block:nth-of-type(2) {
+  margin-left: -6px;
+}
+.properties .block:nth-of-type(3) {
+  margin-left: -5px;
+}
+.properties .block__card1 {
+  margin-left: -3px;
+  margin-right: 30px;
+}
+.properties .block__card2 {
+  margin-left: -5px;
+  margin-right: 30px;
+}
+.properties .block__card3 {
+  margin-left: -5px;
+}
+.properties .block__card {
+  vertical-align: top;
+  display: inline-block;
+  width: 520px;
+  height: 840px;
+  box-sizing: border-box;
+  padding: 36px 34px 0px;
+  border-radius: 40px;
+  transition: 0.2s;
+}
+.properties .block__card:hover {
+  box-shadow: 2px 4px 55px rgba(0, 0, 0, 0.11);
+}
+.properties .block__img {
+  display: inline-block;
+  width: 452px;
+  height: 352px;
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.properties .block__title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #021112;
+  line-height: 49px;
+  margin: 0px;
+  margin-top: 46px;
+  margin-bottom: 9px;
+}
+.properties .block__place {
+  font-weight: 400;
+  font-size: 18px;
+  color: #677071;
+  line-height: 29px;
+  margin: 0px;
+}
+.properties .block__price {
+  font-weight: 700;
+  font-size: 58px;
+  color: #021112;
+  line-height: 91px;
+  margin: 0px;
+  margin-top: 22px;
+  margin-bottom: 2px;
+}
+.properties .block__addition {
+  font-weight: 400;
+  font-size: 18px;
+  color: #CCCFD0;
+  line-height: 29px;
+}
+.properties .block__addition-bed {
+  padding-right: 24px;
+  border-right: 1px solid #CCCFD0;
+}
+.properties .block__addition-bath {
+  padding-right: 24px;
+  padding-left: 24px;
+  border-right: 1px solid #CCCFD0;
+}
+.properties .block__addition-sqft {
+  padding-left: 24px;
+}
+.properties .block__button-see {
+  display: block;
+  margin: 0px;
+  margin-top: 55px;
+  font-size: 28px;
+  color: #13A6BA;
+  font-weight: 600;
+  width: 453px;
+  height: 83px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 83px;
+  border: 2.5px solid #13A6BA;
+  transition: 0.2s;
+}
+.properties .block__button-see:hover {
+  background-color: #13A6BA;
+  color: white;
+}
+.properties .img__home1 {
+  position: absolute;
+  top: -10px;
+  left: -15px;
+  display: inline-block;
+  width: 472px;
+}
+.properties .img__home2 {
+  position: absolute;
+  top: -15px;
+  left: -60px;
+  display: inline-block;
+  width: 599px;
+}
+.properties .img__home3 {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  display: inline-block;
+  width: 528px;
+}
+.properties .img__home4 {
+  position: absolute;
+  top: 0;
+  left: -80px;
+  display: inline-block;
+  width: 630px;
+}
+.properties .img__home5 {
+  position: absolute;
+  top: 0;
+  left: -80px;
+  display: inline-block;
+  width: 700px;
+}
+.properties .img__home6 {
+  position: absolute;
+  top: 0;
+  left: -180px;
+  display: inline-block;
+  width: 800px;
+}
+.properties .img__home7 {
+  position: absolute;
+  top: -10px;
+  left: -70px;
+  display: inline-block;
+  width: 600px;
+}
+.properties .img__home8 {
+  position: absolute;
+  top: -10px;
+  left: -170px;
+  display: inline-block;
+  width: 800px;
+}
+.properties .img__home9 {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+}
+
+/*# sourceMappingURL=output.css.map */

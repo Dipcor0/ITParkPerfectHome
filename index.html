@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="" class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+
+                <ul class="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Listing</a></li>
+                    <li><a href="">Property</a></li>
+                    <li><a href="">Agents</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+
+                <a href="" class="signIn">Sign In</a>
+            </nav>
+
+            <h1 class="hero">Easy way to find a home that’s perfect for you</h1>
+
+            <label class="about">The find and most trusted marketplace of design & build house in the world.</label>
+
+            <div class="wrapper">
+                <div class="bg"></div>
+                <input type="radio" name="control1" id="rent1" checked>
+                <input type="radio" name="control1" id="buy1">
+                <input type="radio" name="control1" id="sell1">
+
+                <div class="slides">
+                    <div class="slide slide1">
+                        <div class="loc">
+                            <label class="info_loc"><i class="fa-solid fa-location-dot"></i>Location</label>
+                            <h1 class="info_loc_p">Los Angels</h1>
+                        </div>
+                        <div class="vert_line"></div>
+
+                        <div class="prop">
+                            <label class="info_prop"><i class="fa-solid fa-key"></i>Property Type</label>
+                            <h1 class="info_prop_c">Delux</h1>
+                        </div>
+                        <div class="vert_line"></div>
+
+                        <div class="price">
+                            <label class="info_price"><i class="fa-solid fa-tags"></i>Average Price</label>
+                            <h1 class="info_price_c">$7000 - 8000</h1>
+                        </div>
+                        <a href="" class="search">Search</a>
+                    </div>
+
+                    <div class="slide slide2">
+                        <div class="loc">
+                            <label class="info_loc"><i class="fa-solid fa-location-dot"></i>Location</label>
+                            <h1 class="info_loc_p">Москов Ёпта!</h1>
+                        </div>
+                        <div class="vert_line"></div>
+
+                        <div class="prop">
+                            <label class="info_prop"><i class="fa-solid fa-key"></i>Property Type</label>
+                            <h1 class="info_prop_c">GOIDA</h1>
+                        </div>
+                        <div class="vert_line"></div>
+
+                        <div class="price">
+                            <label class="info_price"><i class="fa-solid fa-tags"></i>Average Price</label>
+                            <h1 class="info_price_c">ТЛК РУБЛИ!</h1>
+                        </div>
+                        <a href="" class="search">Search</a>
+                    </div>
+
+                    <div class="slide slide3">
+                        <div class="loc">
+                            <label class="info_loc"><i class="fa-solid fa-location-dot"></i>Location</label>
+                            <br>
+                            <h1 class="info_loc_p">Kioto</h1>
+                        </div>
+                        <div class="vert_line"></div>
+
+                        <div class="prop">
+                            <label class="info_prop"><i class="fa-solid fa-key"></i>Property Type</label>
+                            <h1 class="info_prop_c">席大君⛩️👲🏻</h1>
+                        </div>
+                        <div class="vert_line"></div>
+
+                        <div class="price">
+                            <label class="info_price"><i class="fa-solid fa-tags"></i>Average Price</label>
+                            <h1 class="info_price_c">MISKA RISA</h1>
+                        </div>
+                        <a href="" class="search">Search</a>
+                    </div>
+                </div>
+            </div>
+
+            <img src="img/header_home.png" alt="home" class="header_home">
+        </div>
+    </header>
+
+    <section class="properties">
+        <div class="container">
+            <h1 class="properties__header">See our properties</h1>
+            <label for="" class="properties__label">The modern way to sell/buy/rent your own home.</label>
+
+            <input type="radio" name="control2" class="properties__rent" data-info="Rent" checked>
+            <div class="properties__rent-pointer"></div>
+
+            <input type="radio" name="control2" class="properties__buy" data-info="Buy">
+            <div class="properties__buy-pointer"></div>
+
+            <input type="radio" name="control2" class="properties__sell" data-info="Sell">
+            <div class="properties__sell-pointer"></div>
+
+            <div class="slides">
+                <div class="block">
+                    <div class="block__card block__card1">
+                        <div class="block__img">
+                            <img src="img/properties/home1.jpg" alt="home" class="img__home1">
+                        </div>
+                        
+                        <h3 class="block__title">Nomaden Omah Sekut</h3>
+                        <label for="" class="block__place">San Diego, California, USA</label>
+                        <h2 class="block__price">$699,000</h2>
+
+                        <label for="" class="block__addition block__addition-bed">2 Beds</label>
+                        <label for="" class="block__addition block__addition-bath">1 Bath</label>
+                        <label for="" class="block__addition block__addition-sqft">1,109 sqft</label>
+
+                        <a href="" class="block__button-see">See Details</a>
+                    </div>
+                    
+                    <div class="block__card block__card2">
+                        <div class="block__img">
+                            <img src="img/properties/home2.jpg" alt="home" class="img__home2">
+                        </div>
+                        
+                        <h3 class="block__title">Real Bluestyle House</h3>
+                        <label for="" class="block__place">San Diego, California, USA</label>
+                        <h2 class="block__price">$10,00,000</h2>
+
+                        <label for="" class="block__addition block__addition-bed">3 Beds</label>
+                        <label for="" class="block__addition block__addition-bath">2 Bath</label>
+                        <label for="" class="block__addition block__addition-sqft">1,309 sqft</label>
+
+                        <a href="" class="block__button-see">See Details</a>
+                    </div>
+
+                    <div class="block__card block__card3">
+                        <div class="block__img">
+                            <img src="img/properties/home3.jpg" alt="home" class="img__home3">
+                        </div>
+                        
+                        <h3 class="block__title">Luxury Umahu Mantappu</h3>
+                        <label for="" class="block__place">San Diego, California, USA</label>
+                        <h2 class="block__price">$599,000</h2>
+
+                        <label for="" class="block__addition block__addition-bed">2 Beds</label>
+                        <label for="" class="block__addition block__addition-bath">1 Bath</label>
+                        <label for="" class="block__addition block__addition-sqft">1,009 sqft</label>
+
+                        <a href="" class="block__button-see">See Details</a>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block__card block__card1">
+                        <div class="block__img">
+                            <img src="img/properties/russian1.png" alt="home" class="img__home4">
+                        </div>
+                        
+                        <h3 class="block__title">Russkaya izba</h3>
+                        <label for="" class="block__place">Russia, luboe selo</label>
+                        <h2 class="block__price">vodka</h2>
+
+                        <label for="" class="block__addition block__addition-bed">3 Beds</label>
+                        <label for="" class="block__addition block__addition-bath">1 Banya!!!</label>
+                        <label for="" class="block__addition block__addition-sqft">5 sotok</label>
+
+                        <a href="" class="block__button-see">See Details</a>
+                    </div>
+                    
+                    <div class="block__card block__card2">
+                        <div class="block__img">
+                            <img src="img/properties/russian2.jpg" alt="home" class="img__home5">
+                        </div>
+                        
+                        <h3 class="block__title">Russian Dvorec</h3>
+                        <label for="" class="block__place">Center lubogo goroda, epta</label>
+                        <h2 class="block__price"> tlk dlya Corya</h2>
+
+                        <label for="" class="block__addition block__addition-bed">10 Beds</label>
+                        <label for="" class="block__addition block__addition-bath">1 big Banya</label>
+                        <label for="" class="block__addition block__addition-sqft">hz, mnogo</label>
+
+                        <a href="" class="block__button-see">See Details</a>
+                    </div>
+
+                    <div class="block__card block__card3">
+                        <div class="block__img">
+                            <img src="img/properties/russian3.jpg" alt="home" class="img__home6">
+                        </div>
+                        
+                        <h3 class="block__title">Shalash</h3>
+                        <label for="" class="block__place">Les</label>
+                        <h2 class="block__price">Ti Stroish</h2>
+
+                        <label for="" class="block__addition block__addition-bed">1 Beds</label>
+                        <label for="" class="block__addition block__addition-bath">0 Bath</label>
+                        <label for="" class="block__addition block__addition-sqft">vesh mir</label>
+
+                        <a href="" class="block__button-see">See Details</a>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block__card block__card1">
+                        <div class="block__img">
+                            <img src="img/properties/china1.jpg" alt="home" class="img__home7">
+                        </div>
+                        
+                        <h3 class="block__title">栋普通的房子</h3>
+                        <label for="" class="block__place">靠近竹林和山脉的地方</label>
+                        <h2 class="block__price">仅限中文用户</h2>
+
+                        <label for="" class="block__addition block__addition-bed">3 Beds</label>
+                        <label for="" class="block__addition block__addition-bath">1 Bath</label>
+                        <label for="" class="block__addition block__addition-sqft">1,109 sqft</label>
+
+                        <a href="" class="block__button-see">See Details</a>
+                    </div>
+                    
+                    <div class="block__card block__card2">
+                        <div class="block__img">
+                            <img src="img/properties/china2.jpeg" alt="home" class="img__home8">
+                        </div>
+                        
+                        <h3 class="block__title">献给伟大的习大师</h3>
+                        <label for="" class="block__place">在伟大而永恒的中华共产主义帝国的中心</label>
+                        <h2 class="block__price">¥10 000 000</h2>
+
+                        <label for="" class="block__addition block__addition-bed">3 Beds</label>
+                        <label for="" class="block__addition block__addition-bath">2 Bath</label>
+                        <label for="" class="block__addition block__addition-sqft">1,309 sqft</label>
+
+                        <a href="" class="block__button-see">See Details</a>
+                    </div>
+
+                    <div class="block__card block__card3">
+                        <div class="block__img">
+                            <img src="img/properties/china3.jpg" alt="home" class="img__home9">
+                        </div>
+                        
+                        <h3 class="block__title">第一晚的Minecraft盒子</h3>
+                        <label for="" class="block__place">现在中国90%的公寓，只要敲敲任何一扇门就能入住。</label>
+                        <h2 class="block__price">¥10 000</h2>
+
+                        <label for="" class="block__addition block__addition-bed">0.5 Beds</label>
+                        <label for="" class="block__addition block__addition-bath">0.5 Bath</label>
+                        <label for="" class="block__addition block__addition-sqft">1 m<sup>2</sup></label>
+                        
+                        <a href="" class="block__button-see">See Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="benefits"></section>
+</body>
+</html>
