@@ -1039,4 +1039,80 @@ header .header_home {
   right: 930px;
 }
 
+.find .container {
+  position: relative;
+}
+.find .find__block-text {
+  margin-top: 291px;
+  margin-bottom: 299px;
+}
+.find .find__header {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 91px;
+  color: #021112;
+  width: 695px;
+}
+.find .find__page {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #677071;
+  width: 568px;
+}
+.find .find__email {
+  font-family: "Noto Serif", serif;
+  box-sizing: border-box;
+  width: 716px;
+  height: 105px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #C8F3F9;
+  padding-left: 45px;
+  padding-right: 250px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #677071;
+}
+.find .find__button {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  width: 191px;
+  height: 72px;
+  background-color: #13A6BA;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 72px;
+  font-family: "Noto Serif", serif;
+  border: none;
+}
+.find .find__form {
+  position: absolute;
+  top: 408px;
+  left: 904px;
+  z-index: 5;
+}
+.find .find__img-red-line {
+  position: absolute;
+  top: 244px;
+  left: -150px;
+}
+.find .find__img-circles {
+  position: absolute;
+  top: 496px;
+  right: -78px;
+}
+.find .find__img-pol {
+  position: absolute;
+  bottom: 109px;
+  right: -150px;
+}
+
 /*# sourceMappingURL=output.css.map */
