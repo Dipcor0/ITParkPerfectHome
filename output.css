@@ -966,4 +966,77 @@ header .header_home {
   color: white;
 }
 
+.customer {
+  background-color: #FDF6ED;
+  position: relative;
+}
+.customer .customer__text {
+  width: 695px;
+  margin-left: 963px;
+  margin-top: 190px;
+}
+.customer .customer__text-lab-head {
+  display: inline-block;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  color: #13A6BA;
+  letter-spacing: 5px;
+}
+.customer .customer__text-header {
+  margin: 0px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 91px;
+  color: #021112;
+}
+.customer .customer__text-page {
+  margin: 0px;
+  margin-bottom: 59px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+  color: #021112;
+}
+.customer .customer__text-name {
+  margin: 0px;
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+  color: #021112;
+}
+.customer .customer__text-name-lab {
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 190px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #677071;
+}
+.customer .customer__img-person {
+  position: absolute;
+  bottom: 0px;
+  left: 112px;
+  width: 811px;
+}
+.customer .customer__img-hz {
+  position: absolute;
+  bottom: 643px;
+  left: 830px;
+}
+.customer .customer__img-cav {
+  position: absolute;
+  top: 89px;
+  right: 59px;
+}
+.customer .customer__img-blur {
+  position: absolute;
+  bottom: 600px;
+  right: 930px;
+}
+
 /*# sourceMappingURL=output.css.map */

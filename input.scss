@@ -1,14 +1,16 @@
+$color-accent-1:#B3C41D;
 $color-accent-2:#FBEDDA;
+$color-accent-3:#772D8B;
 $color-black:#021112;
 $color-primary:#13A6BA;
 $color-black_shade:#677071;
 $color-black_shade_2:#CCCFD0;
 $color-black_shade_3:#E0E2E3;
 $color-gray:#CFCCCC;
-$color-accent-3:#772D8B;
 $color-secondary_shade:#FEECEB;
 $color-green:#FBFCED;
-$color-accent-1:#B3C41D;
+$color-accent-2-shade-2:#FDF6ED;
+
 
 @mixin create_button($text-size, $text-color, $text-weight, $button-width, $button-height, $button-color, $button-border-radius){
     font-size: $text-size;
@@ -1134,5 +1136,88 @@ header{
         background-color: $color-accent-3;
         border: 1px solid $color-accent-3;
         color:white;
+    }
+}
+
+.customer{
+    background-color: $color-accent-2-shade-2;
+    position: relative;
+    .customer__text{
+        width: 695px;
+        margin-left: 963px;
+        margin-top: 190px;
+    }
+
+    .customer__text-lab-head{
+        display: inline-block;
+        margin: 0px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 42px;
+        color: $color-primary;
+        letter-spacing: 5px;
+    }
+    .customer__text-header{
+        margin: 0px;
+        margin-bottom: 50px;
+
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 91px;
+        color: $color-black;
+    }
+
+    .customer__text-page{
+        margin: 0px;
+        margin-bottom: 59px;
+
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 42px;
+        color: $color-black;
+    }
+
+    .customer__text-name{
+        margin: 0px;
+        margin-bottom: 2px;
+
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 42px;
+        color: $color-black;
+    }
+    .customer__text-name-lab{
+        display: inline-block;
+        margin: 0px;
+        margin-bottom: 190px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: $color-black_shade;
+    }
+
+    .customer__img-person{
+        position: absolute;
+        bottom: 0px;
+        left: 112px;
+
+        width: 811px;
+    }
+    .customer__img-hz{
+        position: absolute;
+        bottom: 643px;
+        left: 830px;
+    }
+    .customer__img-cav{
+        position: absolute;
+        top: 89px;
+        right: 59px;
+    }
+    .customer__img-blur{
+        position: absolute;
+        bottom: 600px;
+        right: 930px;
     }
 }
