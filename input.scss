@@ -33,10 +33,15 @@ body {
   font-family: "Noto Serif", serif;
 }
 
+// section{
+//     overflow: hidden;
+// }
 .container {
   width: 1620px;
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   margin: 0px auto;
+  //display: block;
+  //overflow: hidden;
 }
 
 a{
@@ -292,7 +297,7 @@ header{
 .properties {
     .container{
         position: relative;
-        border: 1px solid orangered;
+        //border: 1px solid orangered;
         margin-top: 290px;
         overflow: hidden;
         //padding-bottom: 458px;
@@ -826,6 +831,10 @@ header{
     .container{
         padding-bottom: 502px;
     }
+    .happening-block-text{
+        position: relative;
+        z-index: 10;
+    }
     .happening-block-text__header{
         margin: 0px;
         margin-bottom: 41px;
@@ -1219,13 +1228,15 @@ header{
     .customer__img-blur{
         position: absolute;
         bottom: 600px;
-        right: 930px;
+        left: 810px;
     }
 }
 
 .find{
+    overflow: hidden;
     .container{
         position: relative;
+        
     }
     .find__block-text{
         margin-top: 291px;
@@ -1276,7 +1287,6 @@ header{
     .find__form{
         position: absolute;
         top: 408px;
-        //left: 0;
         left: 904px;
         z-index: 5;
     }
@@ -1285,6 +1295,7 @@ header{
         position: absolute;
         top: 244px;
         left: -150px;
+        z-index: 10;
     }
     .find__img-circles{
         position: absolute;
@@ -1295,5 +1306,143 @@ header{
         position: absolute;
         bottom: 109px;
         right: -150px;
+    }
+}
+
+footer{
+    overflow: hidden;
+    .footer__block{
+        display: inline-block;
+        //border: 1px solid orange;
+        vertical-align: top;
+        height: 350px;
+    }
+
+    .footer__logo-img{
+        width: 163px;
+    }
+    .footer__logo-text{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: $color-black_shade;
+        width: 338px;
+
+        margin: 0px;
+        margin-top: 39px;
+    }
+
+    .footer__block-list{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer__block-list-header{
+        margin-bottom: 50px;
+    }
+    .footer__block-list-header-link{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 42px;
+        color: $color-black;
+    }
+
+    .footer__block-list-item{
+        margin-bottom: 24px;
+    }
+    .footer__block-list-item:last-child{
+        margin: 0px;
+    }
+    .footer__block-list-item-link{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: $color-black;
+    }
+
+    .footer__block-last-header{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 42px;
+        color: $color-black;
+        margin: 0px;
+    }
+    .footer__block-last-p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: $color-black;
+
+        width: 283px;
+        margin-top: 50px;
+        margin-bottom: 41px;
+    }
+
+    .footer__block-media{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer__block-media-item{
+        display: inline-block;
+        width: 41px;
+        height: 40px;
+        color: $color-primary-shade;
+        border: 1px solid $color-primary-shade;
+        transition: 0.2s;
+        margin-right: 33px;
+
+        i{
+            font-size: 20px;
+            line-height: 41px;
+            width: 40px;
+            text-align: center;
+        }
+    }
+    .footer__block-media-item:last-child{
+        margin-right: 0px;
+    }
+    .footer__block-media-item:hover{
+        color: $color-primary;
+        border: 1px solid $color-primary;
+
+    }
+
+    .footer__block1{
+        margin-right: 153px;
+    }
+    .footer__block2{
+        margin-right: 159px;
+    }
+    .footer__block3{
+        margin-right: 154px;
+    }
+    .footer__block4{
+        margin-right: 137px;
+    }
+
+    .blabla{
+        //overflow: hidden;
+        position: relative;
+        width: 1600px;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .horiz-line{
+        position: absolute;
+        top: 0;
+        left: -50%;
+        transform: translateY(-50%);
+
+        border-top: 1px solid $color-black_shade_3;
+        width: 10000px;
+    }
+    .footer__last-label{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: $color-black_shade;
+        margin: 29px auto;
     }
 }
